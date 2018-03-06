@@ -1,0 +1,44 @@
+﻿  stdafx.cpp
+  Main.cpp
+c:\repos\undirectedgraph\graph\exception.h(33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\repos\undirectedgraph\graph\vertex.h(146): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  c:\repos\undirectedgraph\graph\vertex.h(141): note: while compiling class template member function 'Edge<V,E> *Vertex<V,E>::getEdge(Vertex<V,E> *,E)'
+          with
+          [
+              V=char,
+              E=int
+          ]
+  c:\repos\undirectedgraph\graph\vertex.h(129): note: see reference to function template instantiation 'Edge<V,E> *Vertex<V,E>::getEdge(Vertex<V,E> *,E)' being compiled
+          with
+          [
+              V=char,
+              E=int
+          ]
+  c:\repos\undirectedgraph\graph\vertex.h(62): note: while compiling class template member function 'Vertex<V,E>::~Vertex(void)'
+          with
+          [
+              V=char,
+              E=int
+          ]
+  c:\repos\undirectedgraph\main\main.cpp(356): note: see reference to function template instantiation 'Vertex<V,E>::~Vertex(void)' being compiled
+          with
+          [
+              V=char,
+              E=int
+          ]
+  c:\repos\undirectedgraph\graph\ugraph.h(163): note: while compiling class template member function 'Vertex<V,E> *uGraph<V,E>::getVert(V)'
+          with
+          [
+              V=char,
+              E=int
+          ]
+  c:\repos\undirectedgraph\graph\ugraph.h(133): note: see reference to function template instantiation 'Vertex<V,E> *uGraph<V,E>::getVert(V)' being compiled
+          with
+          [
+              V=char,
+              E=int
+          ]
+  c:\repos\undirectedgraph\graph\ugraph.h(56): note: while compiling class template member function 'uGraph<char,int>::uGraph(void)'
+  c:\repos\undirectedgraph\main\main.cpp(48): note: see reference to function template instantiation 'uGraph<char,int>::uGraph(void)' being compiled
+  c:\repos\undirectedgraph\main\main.cpp(48): note: see reference to class template instantiation 'uGraph<char,int>' being compiled
+LINK : fatal error LNK1104: cannot open file 'Graph.lib'
